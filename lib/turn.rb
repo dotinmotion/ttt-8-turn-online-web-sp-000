@@ -38,5 +38,6 @@ end
   
 def turn(board)
   puts "Please enter 1-9:"
-  move(board, index, player)
+  input_to_index(user_input)
+  display_board(board)
 end
