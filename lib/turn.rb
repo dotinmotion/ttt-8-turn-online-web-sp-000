@@ -38,7 +38,7 @@ end
   
 def turn(board)
     puts "Please enter 1-9:"
-    user_input = stripe.index
+    user_input = gets.stripe
     if valid_move?(board, index)
       input_to_index(user_input)
     end
