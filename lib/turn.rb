@@ -37,3 +37,5 @@ def position_taken?(board, index)
 end
   
 def turn(board)
+end
+display_board
