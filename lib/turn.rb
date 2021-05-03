@@ -39,5 +39,5 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   board(index)
-  until turn(board) = true
+  until turn(board) += true
 end
